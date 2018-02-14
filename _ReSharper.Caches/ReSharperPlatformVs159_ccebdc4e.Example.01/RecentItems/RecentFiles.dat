@@ -1,0 +1,25 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="D402F924-F7CA-4EA5-AC5F-2EE97C281E9E/d:Repositories/f:ExampleRepo.cs" caret="0" fromTop="0" />
+    <File id="D402F924-F7CA-4EA5-AC5F-2EE97C281E9E/d:App_Data/f:Data.cs" caret="0" fromTop="0" />
+    <File id="0163588D-5BF2-4B28-8DBF-BAC81294AC4A/d:Exceptions/f:ExampleException.cs" caret="0" fromTop="0" />
+    <File id="0163588D-5BF2-4B28-8DBF-BAC81294AC4A/d:IoC/f:IoCContainerFactory.cs" caret="33" fromTop="2" />
+    <File id="0163588D-5BF2-4B28-8DBF-BAC81294AC4A/d:Interfaces/f:Interfaces.cs" caret="10" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/f:Global.asax.cs" caret="112" fromTop="4" />
+    <File id="A161648A-4641-4F0B-B7B6-B3D35684B079/d:Services/f:ExampleService.cs" caret="0" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Controllers/f:ExampleController.cs" caret="286" fromTop="10" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Areas/d:HelpPage/f:HelpPage.css" caret="624" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:ViewModels/f:StatusCheckRequestViewModel.cs" caret="188" fromTop="7" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:ActionFilters/f:AuthenticationFilter.cs" caret="0" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/f:Global.asax.cs" caret="58" fromTop="4" />
+    <File id="0163588D-5BF2-4B28-8DBF-BAC81294AC4A/d:IoC/f:IoCContainerFactory.cs" caret="46" fromTop="2" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:ViewModels/f:StatusCheckRequestViewModel.cs" caret="31" fromTop="0" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Controllers/f:ExampleController.cs" caret="326" fromTop="12" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:Controllers/f:ExampleController.cs" caret="197" fromTop="7" />
+    <File id="24E84B3B-77FF-4848-87EF-43EB9BACA1D0/d:ViewModels/f:StatusCheckRequestViewModel.cs" caret="261" fromTop="9" />
+  </RecentEdits>
+</RecentFiles>
