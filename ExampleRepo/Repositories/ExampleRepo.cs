@@ -11,10 +11,10 @@ namespace ExampleRepo.Repositories
             {
                 ExampleDTO Example = new ExampleDTO();
 
-                Example.gunTemp = 17;
-                Example.rounds = 4012;
-                Example.targets = 0;
-                Example.mode = "aggressive/overkill";
+                Example.routine = 17;
+                Example.gummieBears = 4012;
+                Example.recipients = 4;
+                Example.mode = "giveaway";
 
                 return Example;
             }

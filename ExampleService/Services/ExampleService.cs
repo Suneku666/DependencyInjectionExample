@@ -9,7 +9,7 @@ namespace ExampleService
     {
         private IExampleRepository _ExampleRepository;
 
-        private List<string> whitelist = new List<string>(new string[] { "marktruan", "lukehill", "davidstewart" });
+        private List<string> whitelist = new List<string>(new string[] { "markiemoo", "lakyluki", "neighbourino" });
 
         public ExampleService(IExampleRepository ExampleRepository)
         {
