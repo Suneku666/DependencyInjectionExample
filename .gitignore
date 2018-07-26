@@ -32,6 +32,7 @@ TestResults/
 #############
 # Resharper #
 #############
+_ReSharper.Caches/*
 /_ReSharper.*
 *.ReSharper.*
 ############
