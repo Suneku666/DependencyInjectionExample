@@ -24,7 +24,7 @@ namespace ExampleService
                     throw new IllegalExampleUserException();
                 }
 
-                return _ExampleRepository.GetBot(payload);
+                return _ExampleRepository.GetSumData(payload);
             }
 
             throw new IllegalExampleUserException();
