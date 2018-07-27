@@ -10,9 +10,9 @@ namespace ExampleAPI.Controllers
 {
     public class ExampleController : ApiController
     {
-        private IExampleService _ExampleService;
+        private ExampleService.ExampleService _ExampleService;
 
-        public ExampleController(IExampleService ExampleSercive)
+        public ExampleController(ExampleService.ExampleService ExampleSercive)
         {
             this._ExampleService = ExampleSercive;
         }

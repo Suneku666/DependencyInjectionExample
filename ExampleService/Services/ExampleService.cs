@@ -2,16 +2,17 @@
 using ExampleRepo.Repositories;
 using ExampleCommon.Exceptions;
 using ExampleCommon.Interfaces;
+using ExampleRepo;
 
 namespace ExampleService
 {
     public class ExampleService : IExampleService
     {
-        private IExampleRepository _ExampleRepository;
+        private ExampleRepo.Repositories.ExampleRepo _ExampleRepository;
 
         private List<string> whitelist = new List<string>(new string[] { "markiemoo", "lakyluki", "neighbourino" });
 
-        public ExampleService(IExampleRepository ExampleRepository)
+        public ExampleService(ExampleRepo.Repositories.ExampleRepo ExampleRepository)
         {
             this._ExampleRepository = ExampleRepository;
         }
