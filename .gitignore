@@ -19,6 +19,10 @@
 ####################
 UpgradeLog.XML
 _UpgradeReport_Files/
+############
+VS stuff
+############
+.vs/
 ###############
 # Directories #
 ###############
