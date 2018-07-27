@@ -9,9 +9,9 @@
 
     public interface IExampleData
     {
-        int gunTemp { get; set; }
-        int rounds { get; set; }
-        int targets { get; set; }
+        int routine { get; set; }
+        int gummieBears { get; set; }
+        int recipients { get; set; }
         string mode { get; set; }
     }
 

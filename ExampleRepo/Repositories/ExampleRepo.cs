@@ -5,16 +5,16 @@ namespace ExampleRepo.Repositories
 {
     public class ExampleRepo : IExampleRepository
     {
-        public IExampleData GetBot(IStatusCheckRequest payload)
+        public IExampleData GetSumData(IStatusCheckRequest payload)
         {
             if (payload.sumData.Equals("killatron19Ca"))
             {
                 ExampleDTO Example = new ExampleDTO();
 
-                Example.gunTemp = 17;
-                Example.rounds = 4012;
-                Example.targets = 0;
-                Example.mode = "aggressive/overkill";
+                Example.routine = 17;
+                Example.gummieBears = 4012;
+                Example.recipients = 4;
+                Example.mode = "giveaway";
 
                 return Example;
             }
@@ -24,6 +24,6 @@ namespace ExampleRepo.Repositories
 
     public interface IExampleRepository
     {
-        IExampleData GetBot(IStatusCheckRequest payload);
+        IExampleData GetSumData(IStatusCheckRequest payload);
     }
 }
