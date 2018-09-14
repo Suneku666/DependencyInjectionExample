@@ -3,7 +3,7 @@ using ExampleCommon.Interfaces;
 
 namespace ExampleRepo.Repositories
 {
-    public class ExampleRepo : IExampleRepository
+    public class ExampleRepo
     {
         public IExampleData GetSumData(IStatusCheckRequest payload)
         {
@@ -20,10 +20,5 @@ namespace ExampleRepo.Repositories
             }
             throw new ExampleStatusNotFound();
         }
-    }
-
-    public interface IExampleRepository
-    {
-        IExampleData GetSumData(IStatusCheckRequest payload);
     }
 }

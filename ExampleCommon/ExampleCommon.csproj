@@ -140,7 +140,6 @@
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="Exceptions\ExampleException.cs" />
     <Compile Include="Interfaces\Interfaces.cs" />
-    <Compile Include="IoC\IoCContainerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>

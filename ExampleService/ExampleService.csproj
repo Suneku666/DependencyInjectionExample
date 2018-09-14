@@ -116,7 +116,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\IoCConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ExampleService.cs" />
   </ItemGroup>
@@ -129,6 +128,9 @@
       <Project>{D402F924-F7CA-4EA5-AC5F-2EE97C281E9E}</Project>
       <Name>SentryBotRepo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Start\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -5,15 +5,15 @@ using ExampleCommon.Interfaces;
 
 namespace ExampleService
 {
-    public class ExampleService : IExampleService
+    public class ExampleService
     {
-        private IExampleRepository _ExampleRepository;
+        private ExampleRepo.Repositories.ExampleRepo _ExampleRepository;
 
         private List<string> whitelist = new List<string>(new string[] { "markiemoo", "lakyluki", "neighbourino" });
 
-        public ExampleService(IExampleRepository ExampleRepository)
+        public ExampleService()
         {
-            this._ExampleRepository = ExampleRepository;
+            this._ExampleRepository = new ExampleRepo.Repositories.ExampleRepo();
         }
 
         public IExampleData StatusCheck(IStatusCheckRequest payload)
@@ -29,10 +29,5 @@ namespace ExampleService
 
             throw new IllegalExampleUserException();
         }
-    }
-
-    public interface IExampleService
-    {
-        IExampleData StatusCheck(IStatusCheckRequest payload);
     }
 }

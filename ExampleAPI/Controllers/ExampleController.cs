@@ -4,40 +4,45 @@ using System.Web.Http;
 using ExampleAPI.ActionFilters;
 using ExampleAPI.ViewModels;
 using ExampleCommon.Exceptions;
-using ExampleService;
+using ExampleCommon.Interfaces;
 
 namespace ExampleAPI.Controllers
 {
     public class ExampleController : ApiController
     {
-        private IExampleService _ExampleService;
+        private ExampleService.ExampleService _ExampleService;
 
-        public ExampleController(IExampleService ExampleSercive)
+        public ExampleController()
         {
-            this._ExampleService = ExampleSercive;
+            this._ExampleService = new ExampleService.ExampleService();
         }
 
         [System.Web.Http.HttpPost]
         [AuthenticationFilter]
-        public HttpStatusCode StatusCheck(StatusCheckRequestViewModel payload)
+        public object StatusCheck(StatusCheckRequestViewModel payload)
         {
             try
             {
-                _ExampleService.StatusCheck(payload);
+               return _ExampleService.StatusCheck(payload);
             }catch(ExampleException e)
             {
                 return e.GetStatusCode();
             }
-
-            return HttpStatusCode.OK;
         }
 
 
 
         // GET api/<controller>
-        public IEnumerable<string> Get()
+        public object Get(StatusCheckRequestViewModel payload)
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                return _ExampleService.StatusCheck(payload);
+            }
+            catch (ExampleException e)
+            {
+                return "OBJECTION!";
+            }
         }
 
         // GET api/<controller>/5
